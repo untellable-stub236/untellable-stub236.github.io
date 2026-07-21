@@ -1,0 +1,11 @@
+# Global ownership
+* @Celo-HaiTi/core-team
+
+# Pages
+src/app/ @Celo-HaiTi/web-team
+
+# Components
+src/components/ @Celo-HaiTi/ui-team
+
+# Documentation
+docs/ @Celo-HaiTi/docs-team
