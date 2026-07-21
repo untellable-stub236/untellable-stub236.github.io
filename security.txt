@@ -1,0 +1,3 @@
+Contact: mailto:celoht3@gmail.com
+Preferred-Languages: en, ht
+Canonical: https://www.celoht.com/.well-known/security.txt
