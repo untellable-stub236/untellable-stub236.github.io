@@ -1,0 +1,35 @@
+/* Typography System */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.prose {
+  max-width: 75ch;
+  margin: 0 auto;
+}
+
+.prose img {
+  border-radius: 12px;
+}
+
+.prose code {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 6px;
+}
+
+html.dark .prose code {
+  background: #1a1a1a;
+}
