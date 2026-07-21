@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci",
+    "prepare": "husky install",
+    "precommit": "lint-staged",
+    "analyze": "next build && next export",
+    "clean": "rm -rf .next node_modules",
+    "postinstall": "husky install",
+    "generate:sitemap": "next-sitemap",
+    "generate:docs": "typedoc --out docs src",
+    "check:links": "lychee .",
+    "check:accessibility": "accesslint",
+    "check:security": "npx @github/codeql-action/analyze",
+    "check:performance": "lighthouse https://www.celoht.com --quiet --chrome-flags='--headless'",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel"
+  }
+}
