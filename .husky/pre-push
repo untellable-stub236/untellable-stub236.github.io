@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running pre-push tests..."
+
+npm run test
+npm run build
+
+echo "Pre-push checks completed."
